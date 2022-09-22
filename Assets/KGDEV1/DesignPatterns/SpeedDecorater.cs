@@ -6,7 +6,7 @@ public class SpeedDecorater : ItemDecorater
 {
     public SpeedDecorater(int _amount) : base(_amount){}
 
-    public override IAnItem Decorate(IAnItem item)
+    public override IUpgrades Decorate(IUpgrades item)
     {
         Debug.Log("you added more attackSpeed");
         item.type |= ItemType.attackSpeed;

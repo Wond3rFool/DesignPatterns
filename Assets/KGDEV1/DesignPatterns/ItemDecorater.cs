@@ -10,5 +10,5 @@ public abstract class ItemDecorater
         amount = _amount;
     }
 
-    public abstract IAnItem Decorate(IAnItem item);
+    public abstract IUpgrades Decorate(IUpgrades item);
 }

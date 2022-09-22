@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Items : IAnItem
+public class Items : IUpgrades
 {
     public int amount { get ; set; }
     public ItemType type { get; set ; }

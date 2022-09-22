@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Player : MonoBehaviour
 {
-    IAnItem upgraes = new Items(0);
+    IUpgrades upgrades = new Items(0);
     InputHandler inputHandler;
     ICommand command;
 
@@ -18,7 +18,7 @@ public class Player : MonoBehaviour
     void Update()
     {
         command = inputHandler.HandleInput();
-        if (command != null) { command.Execute(upgraes); }
+        if (command != null) { command.Execute(upgrades); }
  
     }
 }

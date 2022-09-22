@@ -6,7 +6,7 @@ public class DamageDecorater : ItemDecorater
 {
     public DamageDecorater(int _amount) : base(_amount) { }
 
-    public override IAnItem Decorate(IAnItem item)
+    public override IUpgrades Decorate(IUpgrades item)
     {
         Debug.Log("you added more Damage");
         item.type |= ItemType.Damage;

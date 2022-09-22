@@ -4,5 +4,5 @@ using UnityEngine;
 
 public interface ICommand
 {
-    void Execute(IAnItem item);
+    void Execute(IUpgrades item);
 }

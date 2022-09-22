@@ -7,7 +7,7 @@ public enum ItemType
     Damage,
     attackSpeed,
 }
-public interface IAnItem
+public interface IUpgrades
 {
     int amount { get; set; }
     ItemType type { get; set; }

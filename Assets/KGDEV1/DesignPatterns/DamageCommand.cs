@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class DamageCommand : ICommand
 {
-    public void Execute(IAnItem item)
+    public void Execute(IUpgrades item)
     {
         DamageDecorater damageDecorater = new DamageDecorater(1);
         item = damageDecorater.Decorate(item);
